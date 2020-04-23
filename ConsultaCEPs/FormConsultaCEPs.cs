@@ -40,6 +40,9 @@ namespace ConsultaCEPs
                     }
                     catch(Exception err)
                     {
+                        string numberErr = err.HResult.GetHashCode().ToString();
+                        string errMessage = err.Message;
+                        string message = string.Concat("Ocorreu um erro inexperado. Erro Nº: ", numberErr, ". ", errMessage, dot);
                         if (err.Message == "CEP INVÁLIDO")
                         {
                             MessageBox.Show("CEP inválido!", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
@@ -48,11 +51,12 @@ namespace ConsultaCEPs
                         {
                             MessageBox.Show("CEP não encontrado!", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                         }
+                        else if(err.HResult == -2146233087)
+                        {
+                            MessageBox.Show("Falha na comunicação com o WS dos correios. Verifique sua conexão com a internet.", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        }
                         else
                         {
-                            string hashErr = err.GetHashCode().ToString();
-                            string errMessage = err.Message;
-                            string message = string.Concat("Ocorreu um erro inexperado. HashError: ", hashErr, ". ", errMessage, dot);
                             MessageBox.Show(message, this.Text, MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
                     }
