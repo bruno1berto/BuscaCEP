@@ -222,7 +222,6 @@ namespace ConsultaCEPs
             this.Name = "FormConsultaCEPs";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Consultar CEPs (WS Correios)";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.GrbDadosCEP.ResumeLayout(false);
             this.GrbDadosCEP.PerformLayout();
             this.ResumeLayout(false);

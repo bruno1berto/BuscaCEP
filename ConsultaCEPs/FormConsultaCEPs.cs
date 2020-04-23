@@ -19,11 +19,6 @@ namespace ConsultaCEPs
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void BtnConsultar_Click(object sender, EventArgs e)
         {
             if (!string.IsNullOrWhiteSpace(TxbCEP.Text))
