@@ -31,20 +31,20 @@ namespace ConsultaCEPs
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormConsultaCEPs));
             this.label1 = new System.Windows.Forms.Label();
-            this.txbCEP = new System.Windows.Forms.TextBox();
-            this.grbDadosCEP = new System.Windows.Forms.GroupBox();
-            this.txbUF = new System.Windows.Forms.TextBox();
+            this.TxbCEP = new System.Windows.Forms.TextBox();
+            this.GrbDadosCEP = new System.Windows.Forms.GroupBox();
+            this.TxbUF = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.txbCidade = new System.Windows.Forms.TextBox();
+            this.TxbCidade = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.txbBairro = new System.Windows.Forms.TextBox();
+            this.TxbBairro = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.txbLogradouro = new System.Windows.Forms.TextBox();
+            this.TxbLogradouro = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.btnConsultar = new System.Windows.Forms.Button();
-            this.btnLimpar = new System.Windows.Forms.Button();
-            this.btnFechar = new System.Windows.Forms.Button();
-            this.grbDadosCEP.SuspendLayout();
+            this.BtnConsultar = new System.Windows.Forms.Button();
+            this.BtnLimpar = new System.Windows.Forms.Button();
+            this.BtnFechar = new System.Windows.Forms.Button();
+            this.GrbDadosCEP.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -57,43 +57,43 @@ namespace ConsultaCEPs
             this.label1.TabIndex = 0;
             this.label1.Text = "CEP:";
             // 
-            // txbCEP
+            // TxbCEP
             // 
-            this.txbCEP.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbCEP.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.txbCEP.Location = new System.Drawing.Point(25, 35);
-            this.txbCEP.Name = "txbCEP";
-            this.txbCEP.Size = new System.Drawing.Size(89, 20);
-            this.txbCEP.TabIndex = 1;
-            this.txbCEP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.TxbCEP.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxbCEP.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.TxbCEP.Location = new System.Drawing.Point(25, 35);
+            this.TxbCEP.Name = "TxbCEP";
+            this.TxbCEP.Size = new System.Drawing.Size(89, 20);
+            this.TxbCEP.TabIndex = 1;
+            this.TxbCEP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // grbDadosCEP
+            // GrbDadosCEP
             // 
-            this.grbDadosCEP.Controls.Add(this.txbUF);
-            this.grbDadosCEP.Controls.Add(this.label5);
-            this.grbDadosCEP.Controls.Add(this.txbCidade);
-            this.grbDadosCEP.Controls.Add(this.label4);
-            this.grbDadosCEP.Controls.Add(this.txbBairro);
-            this.grbDadosCEP.Controls.Add(this.label3);
-            this.grbDadosCEP.Controls.Add(this.txbLogradouro);
-            this.grbDadosCEP.Controls.Add(this.label2);
-            this.grbDadosCEP.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grbDadosCEP.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.grbDadosCEP.Location = new System.Drawing.Point(27, 77);
-            this.grbDadosCEP.Name = "grbDadosCEP";
-            this.grbDadosCEP.Size = new System.Drawing.Size(527, 219);
-            this.grbDadosCEP.TabIndex = 2;
-            this.grbDadosCEP.TabStop = false;
-            this.grbDadosCEP.Text = "Dados do CEP:";
+            this.GrbDadosCEP.Controls.Add(this.TxbUF);
+            this.GrbDadosCEP.Controls.Add(this.label5);
+            this.GrbDadosCEP.Controls.Add(this.TxbCidade);
+            this.GrbDadosCEP.Controls.Add(this.label4);
+            this.GrbDadosCEP.Controls.Add(this.TxbBairro);
+            this.GrbDadosCEP.Controls.Add(this.label3);
+            this.GrbDadosCEP.Controls.Add(this.TxbLogradouro);
+            this.GrbDadosCEP.Controls.Add(this.label2);
+            this.GrbDadosCEP.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GrbDadosCEP.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.GrbDadosCEP.Location = new System.Drawing.Point(27, 77);
+            this.GrbDadosCEP.Name = "GrbDadosCEP";
+            this.GrbDadosCEP.Size = new System.Drawing.Size(527, 219);
+            this.GrbDadosCEP.TabIndex = 2;
+            this.GrbDadosCEP.TabStop = false;
+            this.GrbDadosCEP.Text = "Dados do CEP:";
             // 
-            // txbUF
+            // TxbUF
             // 
-            this.txbUF.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.txbUF.Enabled = false;
-            this.txbUF.Location = new System.Drawing.Point(24, 175);
-            this.txbUF.Name = "txbUF";
-            this.txbUF.Size = new System.Drawing.Size(480, 20);
-            this.txbUF.TabIndex = 10;
+            this.TxbUF.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.TxbUF.Enabled = false;
+            this.TxbUF.Location = new System.Drawing.Point(24, 175);
+            this.TxbUF.Name = "TxbUF";
+            this.TxbUF.Size = new System.Drawing.Size(480, 20);
+            this.TxbUF.TabIndex = 10;
             // 
             // label5
             // 
@@ -104,14 +104,14 @@ namespace ConsultaCEPs
             this.label5.TabIndex = 9;
             this.label5.Text = "UF:";
             // 
-            // txbCidade
+            // TxbCidade
             // 
-            this.txbCidade.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.txbCidade.Enabled = false;
-            this.txbCidade.Location = new System.Drawing.Point(24, 132);
-            this.txbCidade.Name = "txbCidade";
-            this.txbCidade.Size = new System.Drawing.Size(480, 20);
-            this.txbCidade.TabIndex = 8;
+            this.TxbCidade.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.TxbCidade.Enabled = false;
+            this.TxbCidade.Location = new System.Drawing.Point(24, 132);
+            this.TxbCidade.Name = "TxbCidade";
+            this.TxbCidade.Size = new System.Drawing.Size(480, 20);
+            this.TxbCidade.TabIndex = 8;
             // 
             // label4
             // 
@@ -122,14 +122,14 @@ namespace ConsultaCEPs
             this.label4.TabIndex = 7;
             this.label4.Text = "Cidade";
             // 
-            // txbBairro
+            // TxbBairro
             // 
-            this.txbBairro.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.txbBairro.Enabled = false;
-            this.txbBairro.Location = new System.Drawing.Point(24, 87);
-            this.txbBairro.Name = "txbBairro";
-            this.txbBairro.Size = new System.Drawing.Size(480, 20);
-            this.txbBairro.TabIndex = 6;
+            this.TxbBairro.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.TxbBairro.Enabled = false;
+            this.TxbBairro.Location = new System.Drawing.Point(24, 87);
+            this.TxbBairro.Name = "TxbBairro";
+            this.TxbBairro.Size = new System.Drawing.Size(480, 20);
+            this.TxbBairro.TabIndex = 6;
             // 
             // label3
             // 
@@ -140,14 +140,14 @@ namespace ConsultaCEPs
             this.label3.TabIndex = 5;
             this.label3.Text = "Bairro:";
             // 
-            // txbLogradouro
+            // TxbLogradouro
             // 
-            this.txbLogradouro.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.txbLogradouro.Enabled = false;
-            this.txbLogradouro.Location = new System.Drawing.Point(24, 43);
-            this.txbLogradouro.Name = "txbLogradouro";
-            this.txbLogradouro.Size = new System.Drawing.Size(480, 20);
-            this.txbLogradouro.TabIndex = 4;
+            this.TxbLogradouro.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.TxbLogradouro.Enabled = false;
+            this.TxbLogradouro.Location = new System.Drawing.Point(24, 43);
+            this.TxbLogradouro.Name = "TxbLogradouro";
+            this.TxbLogradouro.Size = new System.Drawing.Size(480, 20);
+            this.TxbLogradouro.TabIndex = 4;
             // 
             // label2
             // 
@@ -158,46 +158,50 @@ namespace ConsultaCEPs
             this.label2.TabIndex = 3;
             this.label2.Text = "Logradouro:";
             // 
-            // btnConsultar
+            // BtnConsultar
             // 
-            this.btnConsultar.BackgroundImage = global::ConsultaCEPs.Properties.Resources.busca_cep;
-            this.btnConsultar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnConsultar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnConsultar.Location = new System.Drawing.Point(127, 13);
-            this.btnConsultar.Name = "btnConsultar";
-            this.btnConsultar.Size = new System.Drawing.Size(193, 57);
-            this.btnConsultar.TabIndex = 3;
-            this.btnConsultar.UseVisualStyleBackColor = true;
-            this.btnConsultar.Click += new System.EventHandler(this.btnConsultar_Click);
+            this.BtnConsultar.BackgroundImage = global::ConsultaCEPs.Properties.Resources.busca_cep;
+            this.BtnConsultar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnConsultar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnConsultar.Location = new System.Drawing.Point(127, 13);
+            this.BtnConsultar.Name = "BtnConsultar";
+            this.BtnConsultar.Size = new System.Drawing.Size(193, 57);
+            this.BtnConsultar.TabIndex = 3;
+            this.BtnConsultar.UseVisualStyleBackColor = true;
+            this.BtnConsultar.Click += new System.EventHandler(this.BtnConsultar_Click);
             // 
-            // btnLimpar
+            // BtnLimpar
             // 
-            this.btnLimpar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnLimpar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnLimpar.Image = global::ConsultaCEPs.Properties.Resources.limpar;
-            this.btnLimpar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLimpar.Location = new System.Drawing.Point(413, 310);
-            this.btnLimpar.Name = "btnLimpar";
-            this.btnLimpar.Size = new System.Drawing.Size(70, 35);
-            this.btnLimpar.TabIndex = 4;
-            this.btnLimpar.Text = "Limpar";
-            this.btnLimpar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnLimpar.UseVisualStyleBackColor = true;
-            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
+            this.BtnLimpar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnLimpar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnLimpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnLimpar.ForeColor = System.Drawing.Color.Blue;
+            this.BtnLimpar.Image = global::ConsultaCEPs.Properties.Resources.limpar;
+            this.BtnLimpar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnLimpar.Location = new System.Drawing.Point(413, 310);
+            this.BtnLimpar.Name = "BtnLimpar";
+            this.BtnLimpar.Size = new System.Drawing.Size(70, 35);
+            this.BtnLimpar.TabIndex = 4;
+            this.BtnLimpar.Text = "Limpar";
+            this.BtnLimpar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnLimpar.UseVisualStyleBackColor = true;
+            this.BtnLimpar.Click += new System.EventHandler(this.BtnLimpar_Click);
             // 
-            // btnFechar
+            // BtnFechar
             // 
-            this.btnFechar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnFechar.Image = global::ConsultaCEPs.Properties.Resources.sair;
-            this.btnFechar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnFechar.Location = new System.Drawing.Point(488, 310);
-            this.btnFechar.Name = "btnFechar";
-            this.btnFechar.Size = new System.Drawing.Size(67, 35);
-            this.btnFechar.TabIndex = 5;
-            this.btnFechar.Text = "Fechar";
-            this.btnFechar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnFechar.UseVisualStyleBackColor = true;
-            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
+            this.BtnFechar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnFechar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnFechar.ForeColor = System.Drawing.Color.Blue;
+            this.BtnFechar.Image = global::ConsultaCEPs.Properties.Resources.sair;
+            this.BtnFechar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnFechar.Location = new System.Drawing.Point(488, 310);
+            this.BtnFechar.Name = "BtnFechar";
+            this.BtnFechar.Size = new System.Drawing.Size(67, 35);
+            this.BtnFechar.TabIndex = 5;
+            this.BtnFechar.Text = "Fechar";
+            this.BtnFechar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnFechar.UseVisualStyleBackColor = true;
+            this.BtnFechar.Click += new System.EventHandler(this.BtnFechar_Click);
             // 
             // FormConsultaCEPs
             // 
@@ -205,11 +209,11 @@ namespace ConsultaCEPs
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(582, 359);
-            this.Controls.Add(this.btnFechar);
-            this.Controls.Add(this.btnLimpar);
-            this.Controls.Add(this.btnConsultar);
-            this.Controls.Add(this.grbDadosCEP);
-            this.Controls.Add(this.txbCEP);
+            this.Controls.Add(this.BtnFechar);
+            this.Controls.Add(this.BtnLimpar);
+            this.Controls.Add(this.BtnConsultar);
+            this.Controls.Add(this.GrbDadosCEP);
+            this.Controls.Add(this.TxbCEP);
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
@@ -219,8 +223,8 @@ namespace ConsultaCEPs
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Consultar CEPs (WS Correios)";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.grbDadosCEP.ResumeLayout(false);
-            this.grbDadosCEP.PerformLayout();
+            this.GrbDadosCEP.ResumeLayout(false);
+            this.GrbDadosCEP.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -229,19 +233,19 @@ namespace ConsultaCEPs
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txbCEP;
-        private System.Windows.Forms.GroupBox grbDadosCEP;
-        private System.Windows.Forms.TextBox txbUF;
+        private System.Windows.Forms.TextBox TxbCEP;
+        private System.Windows.Forms.GroupBox GrbDadosCEP;
+        private System.Windows.Forms.TextBox TxbUF;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txbCidade;
+        private System.Windows.Forms.TextBox TxbCidade;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txbBairro;
+        private System.Windows.Forms.TextBox TxbBairro;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txbLogradouro;
+        private System.Windows.Forms.TextBox TxbLogradouro;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btnConsultar;
-        private System.Windows.Forms.Button btnLimpar;
-        private System.Windows.Forms.Button btnFechar;
+        private System.Windows.Forms.Button BtnConsultar;
+        private System.Windows.Forms.Button BtnLimpar;
+        private System.Windows.Forms.Button BtnFechar;
     }
 }
 

@@ -24,19 +24,19 @@ namespace ConsultaCEPs
 
         }
 
-        private void btnConsultar_Click(object sender, EventArgs e)
+        private void BtnConsultar_Click(object sender, EventArgs e)
         {
-            if (!string.IsNullOrWhiteSpace(txbCEP.Text))
+            if (!string.IsNullOrWhiteSpace(TxbCEP.Text))
             {
                 using(var ws = new WSCorreios.AtendeClienteClient())
                 {
                     try
                     {
-                        var endereco = ws.consultaCEP(txbCEP.Text.Trim());
-                        txbLogradouro.Text = endereco.end;
-                        txbBairro.Text = endereco.bairro;
-                        txbCidade.Text = endereco.cidade;
-                        txbUF.Text = endereco.uf;
+                        var endereco = ws.consultaCEP(TxbCEP.Text.Trim());
+                        TxbLogradouro.Text = endereco.end;
+                        TxbBairro.Text = endereco.bairro;
+                        TxbCidade.Text = endereco.cidade;
+                        TxbUF.Text = endereco.uf;
                     }
                     catch(Exception err)
                     {
@@ -61,21 +61,21 @@ namespace ConsultaCEPs
             else
             {
                 MessageBox.Show("Informe um CEP para a consulta.", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                txbCEP.Focus();
+                TxbCEP.Focus();
             }
         }
 
-        private void btnLimpar_Click(object sender, EventArgs e)
+        private void BtnLimpar_Click(object sender, EventArgs e)
         {
-            txbCEP.Text = string.Empty;
-            txbLogradouro.Text = string.Empty;
-            txbCidade.Text = string.Empty;
-            txbBairro.Text = string.Empty;
-            txbUF.Text = string.Empty;
-            txbCEP.Focus();
+            TxbCEP.Text = string.Empty;
+            TxbLogradouro.Text = string.Empty;
+            TxbCidade.Text = string.Empty;
+            TxbBairro.Text = string.Empty;
+            TxbUF.Text = string.Empty;
+            TxbCEP.Focus();
         }
 
-        private void btnFechar_Click(object sender, EventArgs e)
+        private void BtnFechar_Click(object sender, EventArgs e)
         {
             this.Close();
         }

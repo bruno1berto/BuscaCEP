@@ -8,3 +8,13 @@ C:\Users\Leao\Google Drive\Programação\Cursos\C#\Repos\ConsultaCEPs\ConsultaCE
 C:\Users\Leao\Google Drive\Programação\Cursos\C#\Repos\ConsultaCEPs\ConsultaCEPs\obj\Debug\ConsultaCEPs.csproj.CoreCompileInputs.cache
 C:\Users\Leao\Google Drive\Programação\Cursos\C#\Repos\ConsultaCEPs\ConsultaCEPs\obj\Debug\ConsultaCEPs.exe
 C:\Users\Leao\Google Drive\Programação\Cursos\C#\Repos\ConsultaCEPs\ConsultaCEPs\obj\Debug\ConsultaCEPs.pdb
+C:\Users\bruno.2CARTORIO\Google Drive\Programação\Cursos\C#\Repos\ConsultaCEPs\ConsultaCEPs\bin\Debug\ConsultaCEPs.exe.config
+C:\Users\bruno.2CARTORIO\Google Drive\Programação\Cursos\C#\Repos\ConsultaCEPs\ConsultaCEPs\bin\Debug\ConsultaCEPs.exe
+C:\Users\bruno.2CARTORIO\Google Drive\Programação\Cursos\C#\Repos\ConsultaCEPs\ConsultaCEPs\bin\Debug\ConsultaCEPs.pdb
+C:\Users\bruno.2CARTORIO\Google Drive\Programação\Cursos\C#\Repos\ConsultaCEPs\ConsultaCEPs\obj\Debug\ConsultaCEPs.csprojAssemblyReference.cache
+C:\Users\bruno.2CARTORIO\Google Drive\Programação\Cursos\C#\Repos\ConsultaCEPs\ConsultaCEPs\obj\Debug\ConsultaCEPs.FormConsultaCEPs.resources
+C:\Users\bruno.2CARTORIO\Google Drive\Programação\Cursos\C#\Repos\ConsultaCEPs\ConsultaCEPs\obj\Debug\ConsultaCEPs.Properties.Resources.resources
+C:\Users\bruno.2CARTORIO\Google Drive\Programação\Cursos\C#\Repos\ConsultaCEPs\ConsultaCEPs\obj\Debug\ConsultaCEPs.csproj.GenerateResource.cache
+C:\Users\bruno.2CARTORIO\Google Drive\Programação\Cursos\C#\Repos\ConsultaCEPs\ConsultaCEPs\obj\Debug\ConsultaCEPs.csproj.CoreCompileInputs.cache
+C:\Users\bruno.2CARTORIO\Google Drive\Programação\Cursos\C#\Repos\ConsultaCEPs\ConsultaCEPs\obj\Debug\ConsultaCEPs.exe
+C:\Users\bruno.2CARTORIO\Google Drive\Programação\Cursos\C#\Repos\ConsultaCEPs\ConsultaCEPs\obj\Debug\ConsultaCEPs.pdb
